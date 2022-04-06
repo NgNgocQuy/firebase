@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+        console.log("qaaaaaa");
+        var xValuesT = [];
+        var xValuesH = [];
+        var yValues = [];
+    
+            xValuesT.push(element.t)
+            xValuesH.push(element.h)
+            newtime = setUTCSeconds(element.times)
+            yValues.push(newtime)
+    
+
+console.log(xValuesT);
+console.log(xValuesH);
+console.log(yValues);
+// new Chart("myChart", {
+//   type: "line",
+//   data: {
+//     labels: xValues,
+//     datasets: [{
+//       fill: false,
+//       lineTension: 0,
+//       backgroundColor: "rgba(0,0,255,1.0)",
+//       borderColor: "rgba(0,0,255,0.1)",
+//       data: yValues
+//     }]
+//   },
+//   options: {
+//     legend: {display: false},
+//     scales: {
+//       yAxes: [{ticks: {min: 6, max:16}}],
+//     }
+//   }
+// });
+</script>
+
+</body>
+</html>
+
+
